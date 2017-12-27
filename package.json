@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/malecki-se/node-es6/issues"
   },
-  "homepage": "https://github.com/malecki-se/node-es6#readme"
+  "homepage": "https://github.com/malecki-se/node-es6#readme",
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
 }
