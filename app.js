@@ -3,6 +3,4 @@ const collection = [
 	{ "item": 2 }
 ];
 
-console.log(collection);
-
 exports.collection = collection;
