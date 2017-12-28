@@ -5,4 +5,12 @@ const collection = [
 	15
 ];
 
-exports.collection = collection;
+const pushToCollection = function(collection, element) {
+	collection.push(element);
+	return collection;
+};
+
+module.exports = {
+	collection: collection,
+	pushToCollection: pushToCollection
+};
